@@ -5,10 +5,6 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View>
       <Text style={styles.text}>Chore Wars</Text>
-      <Button
-        onPress={() => navigation.navigate('About')}
-        title="About us"
-      />
     </View>
   );
 };
